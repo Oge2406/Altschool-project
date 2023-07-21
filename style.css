@@ -1,0 +1,442 @@
+body {
+    background-color: whitesmoke;
+}
+
+/* Header */
+
+#scissor, #url {
+    display: inline;
+    color: blue;
+}
+
+#login, #tryforfree {
+    float: right;
+    padding: 5px;
+    text-decoration: none;
+    padding-top: 10px;
+}
+#tryforfree {
+    color: white;
+    border: 2px solid blue;
+    padding: 15px, 24px, 12px, 24px;
+    border-radius: 30px 30px 30px 30px;
+    background-color: blue;
+    font-size: large;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+select {
+    border: none;
+    background-color: whitesmoke;
+    padding-left: 0px;
+}
+
+#login {
+    font-size: large;
+    padding-right: 20px;
+}
+
+#features, #pricing, #analytics, #faqs {
+    color: black;
+    display: inline;
+    text-decoration: none;
+    justify-items: center;
+    padding: 10px;
+}
+
+#url {
+    margin-left: 250px;
+    text-decoration: none;
+}
+#box-2-image{
+    margin-top: 0px;
+    padding: 0px;
+}
+
+#box-2 {
+    text-align: center;
+    width: 650px;
+    margin: auto;
+    padding: auto;
+    padding-top: 30px;
+    display: block;
+}
+
+#p-1{
+    width: 550px;
+    margin-bottom: 50px;
+}
+
+[id~="url-short"] {
+    color: blue;
+    background-color: whitesmoke;
+}
+
+#signup {
+    color: white;
+    border: 2px solid blue;
+    background-color: blue;
+    border-radius: 17px 17px 17px 17px;
+    text-decoration: none;
+    padding: 7px 25px 7px 25px;
+    margin-right: 20px;
+}
+
+#learnmore {
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+#box-3 {
+    border: 1px solid blue;
+    margin-top: 80px;
+    display: block;
+    width: 650px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 300px;
+}
+
+#box-3-text {
+    margin: 20px 0px 20px 5px;
+    text-align: center;
+}
+
+#box-3-image {
+    margin-left: 20px;
+}
+
+#group-3-image {
+    margin-top: 40px;
+    width: 1300px;
+    height: 93px;
+    top: 931px;
+}
+
+#possibilities {
+    color: blue;
+    background-color: whitesmoke;
+}
+
+#section {
+    display: inline-flex;
+    flex-wrap: wrap;
+    float: left;
+    word-wrap: break-word;
+    width: 350px;
+}
+
+#why {
+    margin-left: 10px;
+}
+
+#scissors {
+    color: blue;
+    background-color: whitesmoke;
+}
+
+#box-4 {
+    margin-bottom: 100px;
+}
+
+#box-4-2 {
+    display: flex;
+    margin-left: 650px;
+    margin-top: -100px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+#p-0, #p-2, #p-3, #p-4 {
+    padding-left: 25px;
+}
+
+#box-5 {
+    display: flex;
+    flex: 2;
+    flex-wrap: nowrap;
+    padding-left: 200px;
+    padding-right: 30px;
+}
+
+#box-6 {
+    display: flex;
+    margin-top: 30px;
+    padding-left: 200px;
+    padding-right: 30px;
+    margin-bottom: 100px;
+}
+
+#box-5-1, #box-5-2, #box-5-3, #box-5-4 {
+    margin-left: 50px;
+}
+
+#price {
+    color: blue;
+    background-color: whitesmoke;
+}
+
+#priceperfect {
+    display: inline;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#priceimage {
+    margin-bottom: 0px;
+    margin-top: 30px;
+    padding-right: 10px;
+    height: 40px;
+}
+
+li {
+    list-style-image: url("check-circle.png");
+}
+
+#three-boxes {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 200px; 
+    padding: 50px;
+}
+
+#boxes-1 {
+    border: 1px solid blue;
+    height: 350px;
+    border-radius: 15px 0px 0px 15px;
+    padding: 30px;
+}
+
+#boxes-3 {
+    border: 1px solid blue;
+    height: 350px;
+    border-radius: 0px 15px 15px 0px;
+    padding: 30px;
+}
+
+#boxes-2 {
+    border: 2px solid rgba(30, 52, 72, 1);
+    background-color: rgba(30, 52, 72, 1);
+    color: white;
+    height: 455px;
+    padding: 30px;
+    margin-top: -55px;
+    border-radius: 15px;
+}    
+
+#custompricing {
+    border: 1px solid blue;
+    padding: 12px;
+    color: blue;
+    border-radius: 20px;
+    width: 150px;
+    margin-left: 510px;
+}
+
+#selectpricing {
+    border: 1px solid blue;
+    padding: 12px;
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+    width: 150px;
+    margin-left: 10px;
+}
+
+#pasteurl1 {
+    background-color: rgba(30, 52, 72, 1);
+    margin-top: 100px;
+    padding: 100px;
+}
+
+#pasteURL {
+    border: 2px solid white;
+    background-color: white;
+    height: 250px;
+    padding: 20px 30px 20px 20px;
+    width: 400px;
+    border-radius: 20px;
+    color: blue;
+    margin-left: 320px;
+}
+
+#pastehere {
+    width: 100%;
+    color: blue;
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 10px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+#choosedomain {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 8px;
+    margin-right: 20px;
+    width: 183px;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 10px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+#alias {
+    width: 181px;
+    color: blue;
+    border: 1px solid blue;
+    padding: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+#trim {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 30px;
+    border: 2px solid blue;
+}
+
+#termsofservice {
+    text-decoration: none;
+}
+
+#revolutionizing {
+    color: white;
+    height: 250px;
+    background-color: rgba(30, 52, 72, 1);
+    border: 2px solid rgba(30, 52, 72, 1);
+    text-align: center;
+    padding-top: 65px;
+}
+
+#getstarted {
+    border: 1px solid blue;
+    padding: 12px;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    background-color: blue;
+    margin-top: 20px;
+}
+
+#placeholder {
+    color: blue;
+}
+
+#faq-1 {
+    display: flex;
+    margin-left: 600px;
+    padding: 10px;
+}
+
+#faq-2 {
+    display: block;
+    margin-left: 250px;
+}
+
+#faq-2-0, #faq-2-1, #faq-2-2, #faq-2-3, #faq-2-4, #faq-2-5, #faq-2-6, #faq-2-7, #faq-2-8 {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    width: 700px;
+}
+
+#faqimage1 {
+    margin-left: 445px;
+}
+
+#faqimage2 {
+    margin-left: 195px;
+}
+
+#faqimage3 {
+    margin-left: 309px;
+}
+
+#faqimage4 {
+    margin-left: 240px;
+}
+
+#faqimage5 {
+    margin-left: 206px;
+}
+
+#faqimage6 {
+    margin-left: 310px;
+}
+
+#faqimage7 {
+    margin-left: 546px;
+}
+
+#faqimage8 {
+    margin-left: 409px;
+}
+
+#faqimage8 {
+    margin-left: 407px;
+}
+
+#faqimage9 {
+    margin-left: 607px;
+}
+
+footer {
+    padding: 60px;
+    background: linear-gradient(262.84deg, rgba(158, 230, 247, 0) 1.35%, rgba(158, 230, 247, 0.184) 87.81%);
+    background: linear-gradient(340.22deg, rgba(0, 90, 226, 0.6) 5.62%, rgba(115, 230, 255, 0.228) 83.25%);
+    background: linear-gradient(272.53deg, rgba(158, 230, 247, 0) -5.73%, rgba(158, 230, 247, 0.138) 86.33%);
+    background: linear-gradient(272.53deg, rgba(158, 230, 247, 0) -5.73%, rgba(158, 230, 247, 0.138) 86.33%);
+    
+}
+
+#footer-1 {
+    color: rgba(0, 31, 63, 1);
+    width: 150px;
+}
+
+#footer-2 {
+    display: flex;
+    float: right;
+    margin-top: -89px;
+    margin-bottom: 0px;
+}
+
+#footer-21, #footer-22, #footer-23, #footer-24 {
+    padding-left: 30px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+#footer-3 {
+    display: flex;
+    margin-left: 350px;
+}
+
+#footer-31, #footer-32, #footer-33 {
+    padding-left: 30px;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 60px;
+}
+
+#last {
+    float: right;
+    color: rgba(0, 31, 63, 1);
+    padding-top: 20px;
+}
+
+#group-3-image {
+    margin: 0px;
+    padding: 0px;
+}
